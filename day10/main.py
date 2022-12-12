@@ -1,10 +1,4 @@
-with open("/home/mattiafranzin/Desktop/aoc2022/day10/input.txt") as f:
-
-    cycles_time = {
-        'addx': 2,
-        'noop': 1
-    }
-
+with open("input.txt") as f:
     cycle_number = 1
     timeout = []
     value = 1
